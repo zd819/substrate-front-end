@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
-import Blog from "./Blog";
+import Blog from "./Blog.jsx";
 
 function BlogList() {
   return (

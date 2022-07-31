@@ -2,8 +2,8 @@ import axios from "axios";
 import React, { useState } from "react";
 import { Card, Container, Row } from "reactstrap";
 import useFetch from "../hooks/useFetch";
-import Search from "../search/Search";
-import Listing from "./Listing";
+import Search from "../search/Search.jsx";
+import Listing from "./Listing.jsx";
 
 function Listings() {
   const [listings] = useFetch("http://localhost:8002/properties");

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
@@ -7,7 +7,7 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-5 text-light">
       <div className="container-fluid">
         <NavLink className="navbar-brand h1" to="/" style={{color: "orange"}}>
-          MAKAZI
+          Brickchain
         </NavLink>
 
         <button

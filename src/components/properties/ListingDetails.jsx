@@ -10,7 +10,7 @@ import {
   ListGroupItem,
   Row,
 } from "reactstrap";
-import Profile from "../profile/Profile";
+import Profile from "../profile/Profile.jsx";
 
 function ListingDetails({}) {
   const location = useLocation();
